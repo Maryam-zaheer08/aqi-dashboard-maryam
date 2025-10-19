@@ -1,7 +1,6 @@
 🌫️ AQI Predictor Dashboard
 
 Author: Maryam Zaheer
-Live Demo: [Your Live App Link Here]
 Tech Stack: Python, Streamlit, Machine Learning, TensorFlow, OpenWeather API
 
 
