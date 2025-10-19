@@ -25,6 +25,7 @@ Prerequisites
 · Python 3.8 or higher
 · Git
 · OpenWeather API account (Get free API key)
+. Run vs code as Administrator
 
 🚀 Quick Start
 
@@ -45,13 +46,8 @@ Prerequisites
 3. Install dependencies
    ```bash
    pip install -r requirements.txt
-   ```
-4. Configure environment variables
-   Create a .env file in the project root:
-   ```env
-   OPENWEATHER_API_KEY=your_api_key_here
-   ```
-5. Launch the dashboard
+
+4. Launch the dashboard
    ```bash
    streamlit run app.py
    ```
