@@ -1,6 +1,54 @@
-.env
+# Virtual environment
+aqi_env/
+
+# Python cache files
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# System files
 .DS_Store
+Thumbs.db
+
+# Data / model files
 *.pkl
 *.h5
+
+# VS Code settings
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.manifest
+*.spec
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dylib
+*.dll
+
+# Backup / temp files
+*~
+*.swp
+*.swo
+
+# Mac system files
+._*
+
+# Installer / package info
+*.egg-info/
+pip-log.txt
