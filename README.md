@@ -30,8 +30,7 @@ Prerequisites
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/Maryam-zaheer08/aqi-predictor.git
-   cd aqi-predictor
+   git clone: https://github.com/Maryam-zaheer08/aqi-dashboard-maryam.git
    ```
 2. Set up virtual environment
    ```bash
