@@ -3,16 +3,17 @@
 Author: Maryam Zaheer
 Tech Stack: Python, Streamlit, Machine Learning, TensorFlow, OpenWeather API
 
-Dahboard Preview(Here's how my AQI Dashboard Looks)
-(https://github.com/Maryam-zaheer08/aqi-dashboard-maryam/raw/main/assets/Dashboard-pic-1.JPG)
-(https://github.com/Maryam-zaheer08/aqi-dashboard-maryam/raw/main/assets/Dashboard-pic-2.JPG)
-(https://github.com/Maryam-zaheer08/aqi-dashboard-maryam/raw/main/assets/Dashboard-pic-3.JPG)
-(https://github.com/Maryam-zaheer08/aqi-dashboard-maryam/raw/main/assets/Dashboard-pic-4.JPG)
-(https://github.com/Maryam-zaheer08/aqi-dashboard-maryam/raw/main/assets/Dashboard-pic-5.JPG)
-(https://github.com/Maryam-zaheer08/aqi-dashboard-maryam/raw/main/assets/Dashboard-pic-6.JPG)
-(https://github.com/Maryam-zaheer08/aqi-dashboard-maryam/raw/main/assets/Dashboard-pic-7.JPG)
-(https://github.com/Maryam-zaheer08/aqi-dashboard-maryam/raw/main/assets/Dashboard-pic-8.JPG)
+## 🖼️ Dashboard Preview
+Here's how my AQI Dashboard looks:
 
+![Dashboard 1](https://github.com/Maryam-zaheer08/aqi-dashboard-maryam/raw/main/assets/Dashboard-pic-1.JPG)
+![Dashboard 2](https://github.com/Maryam-zaheer08/aqi-dashboard-maryam/raw/main/assets/Dashboard-pic-2.JPG)
+![Dashboard 3](https://github.com/Maryam-zaheer08/aqi-dashboard-maryam/raw/main/assets/Dashboard-pic-3.JPG)
+![Dashboard 4](https://github.com/Maryam-zaheer08/aqi-dashboard-maryam/raw/main/assets/Dashboard-pic-4.JPG)
+![Dashboard 5](https://github.com/Maryam-zaheer08/aqi-dashboard-maryam/raw/main/assets/Dashboard-pic-5.JPG)
+![Dashboard 6](https://github.com/Maryam-zaheer08/aqi-dashboard-maryam/raw/main/assets/Dashboard-pic-6.JPG)
+![Dashboard 7](https://github.com/Maryam-zaheer08/aqi-dashboard-maryam/raw/main/assets/Dashboard-pic-7.JPG)
+![Dashboard 8](https://github.com/Maryam-zaheer08/aqi-dashboard-maryam/raw/main/assets/Dashboard-pic-8.JPG)
 
 📊 Project Overview
 
