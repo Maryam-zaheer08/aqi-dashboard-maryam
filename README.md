@@ -2,6 +2,7 @@
 
 Author: Maryam Zaheer
 Tech Stack: Python, Streamlit, Machine Learning, TensorFlow, OpenWeather API
+
 Dahboard Preview(Here's how my AQI Dashboard Looks)
 (https://github.com/Maryam-zaheer08/aqi-dashboard-maryam/raw/main/assets/Dashboard-pic-1.JPG)
 (https://github.com/Maryam-zaheer08/aqi-dashboard-maryam/raw/main/assets/Dashboard-pic-2.JPG)
