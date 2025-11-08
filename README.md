@@ -46,18 +46,17 @@ This project merges advanced AI models with a clean, intuitive interface to help
 
 🌟 Key Highlights
 
-Real-Time AQI Monitoring with multi-pollutant tracking
+🌫 Real-Time AQI Monitoring with multi-pollutant tracking
 
-3-Day ML Forecasting using ensemble models (XGBoost, LightGBM, LSTM)
+🤖 3-Day ML Forecasting using ensemble models (XGBoost, LightGBM, LSTM)
 
-Professional Dashboard with interactive visualizations
+📊 Professional Dashboard with interactive visualizations
 
-Production-Ready Architecture with full ML pipeline
+🧩 Production-Ready Architecture with full ML pipeline
 
-Health Alerts for hazardous air quality conditions
+🚨 Health Alerts for hazardous air quality conditions
 
 ✨ Features
-
 📊 Core Functionalities
 
 🔴 Live AQI Monitoring – Real-time air quality data with health indicators
@@ -72,7 +71,6 @@ Health Alerts for hazardous air quality conditions
 
 🔍 Model Explainability – SHAP-based feature importance for transparency
 
-
 🛠️ Technical Features
 
 ⚙️ Automated Data Pipeline – Hourly updates via OpenWeather API
@@ -81,12 +79,11 @@ Health Alerts for hazardous air quality conditions
 
 📡 Model Performance Monitoring – Real-time model evaluation
 
-📊 Interactive Visuals – Charts, gauges, correlation matrices
+📊 Interactive Visuals – Charts, gauges, and correlation matrices
 
 🧩 Modular Architecture – Scalable and maintainable code structure
 
 🚀 Installation
-
 🧾 Prerequisites
 
 Python 3.8+
@@ -95,16 +92,15 @@ Git
 
 OpenWeather API key
 
-
 🪜 Setup Steps
 
-1. Clone the Repository
+Clone the Repository
 
 git clone https://github.com/Maryam-zaheer08/aqi-dashboard-maryam.git
 cd aqi-dashboard-maryam
 
 
-2. Create Virtual Environment
+Create Virtual Environment
 
 # Windows
 python -m venv aqi_env
@@ -115,43 +111,42 @@ python3 -m venv aqi_env
 source aqi_env/bin/activate
 
 
-3. Install Dependencies
+Install Dependencies
 
 pip install -r requirements.txt
 
 
-4. Configure Environment Create a .env file in the project root:
+Configure Environment
+Create a .env file in the project root:
 
 OPENWEATHER_API_KEY=your_actual_api_key_here
 
 
-5. Launch Application
+Launch Application
 
 streamlit run app.py
 
-Visit: http://localhost:8501
+
+Visit → http://localhost:8501
 
 💻 Usage
-
 🏠 Main Dashboard
 
 View current AQI levels and health recommendations
 
-Monitor pollutant concentrations (PM2.5, PM10, NO2, SO2, CO, O3)
+Monitor pollutant concentrations (PM2.5, PM10, NO₂, SO₂, CO, O₃)
 
 Observe interactive gauges and live statistics
 
 Track ML pipeline and model performance
 
-
 🔮 Forecast Hub
 
 Get 3-day AQI predictions from multiple models
 
-Compare models with R² scores and confidence intervals
+Compare R² scores and confidence intervals
 
 View forecast charts and error analysis
-
 
 📊 Historical Analysis
 
@@ -160,7 +155,6 @@ Visualize 30-day AQI trends
 Identify seasonal and correlation patterns
 
 Explore data distributions and pollutant dependencies
-
 
 ⚠️ Alert Center
 
@@ -171,9 +165,7 @@ View severity levels and probability warnings
 Access alert history and trend tracking
 
 🏗️ Technical Architecture
-
 🔍 System Overview
-
 Data Sources → Feature Engineering → ML Pipeline → Dashboard → User
      ↓               ↓                 ↓            ↓         ↓
 OpenWeather     Pandas/NumPy       XGBoost      Streamlit   Web UI
@@ -182,41 +174,27 @@ OpenWeather     Pandas/NumPy       XGBoost      Streamlit   Web UI
 
 ⚙️ Data Pipeline
 
-1. Data Collection: OpenWeather API (real-time updates)
+Data Collection – OpenWeather API (real-time updates)
 
+Feature Engineering – Temporal and pollutant-based transformations
 
-2. Feature Engineering: Temporal and pollutant-based transformations
+Feature Storage – Managed via Hopsworks
 
+Model Training – Automated multi-model training
 
-3. Feature Storage: Managed via Hopsworks
+Prediction Service – Real-time forecasting and monitoring
 
-
-4. Model Training: Automated multi-model training
-
-
-5. Prediction Service: Real-time forecasting and monitoring
-
-
-
-Layers Overview
-
-Data Layer: OpenWeather API, Hopsworks
-
-Processing Layer: Pandas, NumPy, Scikit-learn
-
-ML Layer: XGBoost, LightGBM, TensorFlow LSTM
-
-Presentation Layer: Streamlit, Plotly, Matplotlib
-
+🧱 Layers Overview
+Layer	Components
+Data Layer	OpenWeather API, Hopsworks
+Processing Layer	Pandas, NumPy, Scikit-learn
+ML Layer	XGBoost, LightGBM, TensorFlow LSTM
+Presentation Layer	Streamlit, Plotly, Matplotlib
 🤖 Machine Learning Models
-
 Model	Type	R² Score	Training Time	Best For
-
 🥇 XGBoost	Gradient Boosting	1.0000	~2 min	Primary predictions
 🥈 LightGBM	Light Gradient Boosting	0.9989	~1 min	Quick updates
-🥉 LSTM	Neural Network	0.8727	~5 min	Complex patterns
-
-
+🥉 LSTM	Neural Network	0.8727	~5 min	Complex temporal patterns
 Model Details
 
 XGBoost (Champion Model)
@@ -227,7 +205,6 @@ Strengths: Excellent for tabular data, robust performance
 
 Use Case: Primary prediction engine
 
-
 LightGBM (High Performer)
 
 Accuracy: R² = 0.9989
@@ -235,7 +212,6 @@ Accuracy: R² = 0.9989
 Strengths: Fast training, great accuracy
 
 Use Case: Quick update model
-
 
 LSTM (Pattern Specialist)
 
@@ -246,7 +222,6 @@ Strengths: Captures long-term temporal patterns
 Use Case: Seasonal AQI trend analysis
 
 📁 Project Structure
-
 aqi-dashboard-maryam/
 ├── app.py               # Main Streamlit application
 ├── models.py            # ML model definitions and training
@@ -270,42 +245,30 @@ utils.py: Helper utilities for visualization and metrics
 requirements.txt: Required Python libraries
 
 📊 Results & Performance
-
 Model Evaluation
 
-XGBoost: R² = 1.0000 ✅
+✅ XGBoost: R² = 1.0000
 
-LightGBM: R² = 0.9989 ✅
+✅ LightGBM: R² = 0.9989
 
-LSTM: R² = 0.8727 ⚙️
-
+⚙️ LSTM: R² = 0.8727
 
 🔍 Top Influential Features
 
-1. PM2.5 concentration
+PM2.5 concentration
 
+PM10 levels
 
-2. PM10 levels
+Historical AQI trends
 
+Time-based features (hour, day, season)
 
-3. Historical AQI trends
-
-
-4. Time-based features (hour, day, season)
-
-
-5. Weather-related correlations
-
-
+Weather-related correlations
 
 📈 Sample Output
-
 Current AQI: 3.6 (Unhealthy)
-
 Pollutants: PM2.5 (32.0 μg/m³), PM10 (76.9 μg/m³), NO₂ (21.0 μg/m³)
-
 Forecast: Gradual improvement expected
-
 Alerts: No hazardous conditions detected
 
 🤝 Contributing
@@ -314,25 +277,21 @@ We welcome all contributions to enhance this project!
 
 🧩 Contribution Steps
 
-1. Fork the repository
+Fork the repository
 
-
-2. Create a branch:
+Create a branch
 
 git checkout -b feature/YourFeature
 
 
-3. Commit changes:
+Commit changes
 
 git commit -m "Add YourFeature"
 
 
-4. Push to GitHub and open a Pull Request
-
-
+Push and open a Pull Request on GitHub
 
 🧪 Development Setup
-
 pip install -r requirements.txt
 python -m pytest tests/
 black app.py models.py data_pipeline.py utils.py
@@ -347,14 +306,12 @@ For questions, feedback, or suggestions:
 
 🙏 Acknowledgments
 
-OpenWeatherMap – for providing AQI and weather APIs
+🌤 OpenWeatherMap – For providing AQI and weather APIs
 
-Streamlit – for an intuitive dashboard framework
+🖥 Streamlit – For an intuitive dashboard framework
 
-Hopsworks – for feature store management
+🧠 Hopsworks – For feature store management
 
-TensorFlow, XGBoost, LightGBM – for powerful ML capabilities
+⚡ TensorFlow, XGBoost, LightGBM – For powerful ML capabilities
 
 🌍 Breathe Better, Plan Smarter with AQI Predictor Dashboard
-
-Empowering everyone with actionable air quality insights.
