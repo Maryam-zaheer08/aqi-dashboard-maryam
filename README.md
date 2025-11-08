@@ -70,7 +70,7 @@ Step-by-Step Setup
 
 1. Clone the Repository
    bash
-   git clone https://github.com/your-username/aqi-predictor.git
+   git clone https://github.com/Maryam-zaheer08/aqi-dashboard-maryam
    cd aqi-predictor
    
 2. Create Virtual Environment
@@ -90,7 +90,7 @@ Step-by-Step Setup
 4. Environment Configuration
    Create a .env file in the project root:
    env
-   OPENWEATHER_API_KEY=your_actual_api_key_here
+   OPENWEATHER_API_KEY=api key here
    
 5. Launch the Application
    bash
